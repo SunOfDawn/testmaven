@@ -60,5 +60,3 @@ require (
 	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b
 	k8s.io/utils v0.0.0-20201110183641-67b214c5f920
 )
-
-replace github.com/aquasecurity/fanal v0.0.0-20210429142135-6e71d2a9d3be => ../fanal

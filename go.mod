@@ -1,19 +1,56 @@
-module git.antiy.cn/vuln_scan/watchdog-server
+module rasp-cloud
 
-go 1.16
+go 1.13
 
 require (
-	github.com/fsnotify/fsnotify v1.5.1 // indirect
-	github.com/goccy/go-yaml v1.8.2 // indirect
-	github.com/gomodule/redigo v1.8.5
-	github.com/gorilla/mux v1.7.4
-	github.com/natefinch/lumberjack v2.0.0+incompatible
-	github.com/satori/go.uuid v1.2.0 // indirect
-	github.com/stretchr/testify v1.7.0 // indirect
-	go.uber.org/zap v1.16.0
-	golang.org/x/net v0.0.0-20190620200207-3b0461eec859 // indirect
-	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1
-	google.golang.org/grpc v1.35.0 // indirect
-	google.golang.org/protobuf v1.25.0
-	gopkg.in/yaml.v2 v2.2.2 // indirect
+	bou.ke/monkey v1.0.2 // indirect
+	github.com/Shopify/sarama v1.24.0
+	github.com/astaxie/beego v1.12.3
+	github.com/beego/bee/v2 v2.0.2 // indirect
+	github.com/beego/beego/v2 v2.0.1 // indirect
+	github.com/bouk/monkey v1.0.2-0.20180914095644-e8ac0cba3b42
+	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
+	github.com/eapache/go-resiliency v1.2.1-0.20190716143035-b98ce2825f72 // indirect
+	github.com/eapache/queue v1.1.1-0.20180227141424-093482f3f8ce // indirect
+	github.com/flosch/pongo2 v0.0.0-20200913210552-0d938eb266f3 // indirect
+	github.com/go-delve/delve v1.6.1 // indirect
+	github.com/go-sql-driver/mysql v1.6.0 // indirect
+	github.com/golang/snappy v0.0.2-0.20190904063534-ff6b7dc882cf // indirect
+	github.com/gopherjs/gopherjs v0.0.0-20191106031601-ce3c9ade29de // indirect
+	github.com/gorilla/websocket v1.4.2
+	github.com/hashicorp/go-uuid v1.0.2-0.20191001231223-f32f5fe8d6a8 // indirect
+	github.com/ianlancetaylor/demangle v0.0.0-20200824232613-28f6c0f3b639
+	github.com/jcmturner/gofork v1.0.0 // indirect
+	github.com/jtolds/gls v4.20.0+incompatible // indirect
+	github.com/klauspost/compress v1.8.7-0.20191010133228-30993c63e1b0 // indirect
+	github.com/lib/pq v1.10.2 // indirect
+	github.com/mailru/easyjson v0.0.0-20180823135443-60711f1a8329 // indirect
+	github.com/mattn/go-colorable v0.1.8 // indirect
+	github.com/mattn/go-isatty v0.0.13 // indirect
+	github.com/mattn/go-runewidth v0.0.13 // indirect
+	github.com/olivere/elastic v6.2.13+incompatible
+	github.com/oschwald/geoip2-golang v1.4.0
+	github.com/peterh/liner v1.2.1 // indirect
+	github.com/pierrec/lz4 v2.3.1-0.20190907084430-0554902aa74a+incompatible // indirect
+	github.com/pkg/errors v0.9.1
+	github.com/prometheus/common v0.29.0 // indirect
+	github.com/prometheus/procfs v0.7.0 // indirect
+	github.com/rcrowley/go-metrics v0.0.0-20190826022208-cac0b30c2563 // indirect
+	github.com/robertkrimen/otto v0.0.0-20180617131154-15f95af6e78d
+	github.com/shiena/ansicolor v0.0.0-20200904210342-c7312218db18 // indirect
+	github.com/sirupsen/logrus v1.8.1 // indirect
+	github.com/smartystreets/assertions v0.0.0-20190116191733-b6c0e53d7304 // indirect
+	github.com/smartystreets/goconvey v1.6.4
+	github.com/spf13/viper v1.8.1 // indirect
+	go.starlark.net v0.0.0-20210602144842-1cdb82c9e17a // indirect
+	golang.org/x/arch v0.0.0-20210502124803-cbf565b21d1e // indirect
+	golang.org/x/crypto v0.0.0-20210711020723-a769d52b0f97
+	golang.org/x/net v0.0.0-20210614182718-04defd469f4e // indirect
+	golang.org/x/sys v0.0.0-20210630005230-0f9fa26af87c // indirect
+	golang.org/x/text v0.3.6 // indirect
+	google.golang.org/protobuf v1.27.1 // indirect
+	gopkg.in/jcmturner/gokrb5.v7 v7.3.0 // indirect
+	gopkg.in/mgo.v2 v2.0.0-20190816093944-a6b53ec6cb22
+	gopkg.in/sourcemap.v1 v1.0.5 // indirect
+	pkg.re/essentialkaos/go-jar.v1 v1.0.5 // indirect
 )
